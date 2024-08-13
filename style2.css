@@ -75,7 +75,7 @@ body, html {
 
 /* Styling for welcome-background */
 .welcome-background {
-    background-color: #009999; /* Background color */
+    background-color: #006666; /* Background color */
     width: 100%; /* Make sure it spans the full width of the parent container */
     margin: 0; /* Remove any margin to ensure it touches the edges */
     padding: 20px 0; /* Add some vertical padding */

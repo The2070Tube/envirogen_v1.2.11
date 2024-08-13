@@ -75,7 +75,7 @@ body, html {
 
 /* Styling for welcome-background */
 .welcome-background {
-    background-color: #006666; /* Background color */
+    background-color: #0F4040; /* Background color */
     width: 100%; /* Make sure it spans the full width of the parent container */
     margin: 0; /* Remove any margin to ensure it touches the edges */
     padding: 20px 0; /* Add some vertical padding */
@@ -102,7 +102,7 @@ body, html {
     align-items: center;
     text-align: center;
     color: white !important;
-    padding-bottom: 125px;
+    padding-bottom: 50px;
 }
 
 .quote {
@@ -127,84 +127,33 @@ body, html {
     margin: 0; /* Remove any margin to ensure it touches the edges */
     padding: 20px 0; /* Add some vertical padding */
     box-sizing: border-box;
+    padding-bottom: 100px;
+    padding-top: 80px;
 }
 
 .mission1 {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: center;
     margin-top: 0;
+    
 }
 
-.boxes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 70px;
-    padding: 50px 0 200px;
-    background-color: #CCFFE5;
-    justify-content: center;
-    align-items: start;
-    padding-top: 120px;
-}
 
-.boxinside1, .boxinside2, .boxinside3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    font-family: 'Secular One', sans-serif;
-    background-color: #CCFFE5;
-    color: black;
-    padding: 16px;
-    border: 5px solid black;
-    border-radius: 11px;
-    width: 300px;  /* Set a fixed width */
-    height: 400px; /* Set a fixed height */
-    box-sizing: border-box;
-    transition: 0.15s;
-    margin: 0 auto; /* Center the box in its grid cell */
-}
 
-.boxinside1:hover, .boxinside2:hover, .boxinside3:hover {
-    transform: scale(1.325);
-    background-color: white;
-}
 
-.boximag1, .boximag2, .boximag3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background: none;
-}
 
-.box1text, .box2text, .box3text {
-    font-size: 14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px;
-    text-align: center;
-    word-wrap: break-word;
-    width: 100%;
-}
 
-.imgurs1b {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-    margin-bottom: 20px;
-}
 
-h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
-}
 
-.imges {
-    background: none;
-    max-width: 100px;
-    height: auto;
-    object-fit: contain;
-}
+
+
+
+
+
+
+
+
 
 .bottombar {
     background-color: #009999;
@@ -257,3 +206,60 @@ h3 {
     width: 70px;
     height: auto;
 }
+
+
+
+.paragraph {
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: normal !important;
+    transition: 0.15s;
+}
+
+.paragraph:hover {
+    transform: scale(1.025);
+    font-weight: bold !important;
+}
+
+.med {
+    align-items: center;
+    text-align: center;
+    
+}
+
+.medic {
+    background-color: #CCFFE5;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
