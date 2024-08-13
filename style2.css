@@ -1,0 +1,239 @@
+/* Base styles for all div elements */
+div {
+    font-family: Calibri, sans-serif;
+    background-color: rgb(255, 255, 255); /* White background */
+    color: rgb(0, 0, 0); /* Text color */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Styling for the navigation */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Styling for links with the 'items' class and navbar links */
+.navbar1 a, .items {
+    text-decoration: none !important;  /* Remove underline from links */
+    color: black;        /* Set text color to black */
+    background: none;      /* Ensure no background color is applied */
+}
+
+/* Ensure navbar links remain black on hover and after being visited */
+.navbar1 a:hover, .navbar1 a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* Ensure no default margin or padding on body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Styling for the heart element */
+.heart {
+    padding-top: 12px;
+    transition: 0.25s;
+}
+
+.heart:hover {
+    transform: scale(1.825);
+}
+
+/* Styling for items class */
+.items {
+    font-weight: bold;
+    transition: 0.25s;
+    padding-top: 15px;
+}
+
+.items:hover {
+    transform: scale(1.4);
+    padding: 10px;
+    background-color: #00994C;
+    color: white;
+}
+
+/* Styling for the navbar */
+.navbar1 {
+    width: 100%;        /* Stretch the navbar to the full width of the screen */
+    margin: 0;         /* Remove default margin */
+    padding: 0;        /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding-bottom: 15px; /* Add padding at the bottom */
+}
+
+/* Styling for the whole navigation container */
+.wholenav {
+    background-color: #CCFFE5; /* Light green background */
+    margin: 0; /* Ensure no extra margin */
+    padding: 8px 0 0 0; /* Remove padding except for top */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Styling for welcome-background */
+.welcome-background {
+    background-color: #009999; /* Background color */
+    width: 100%; /* Make sure it spans the full width of the parent container */
+    margin: 0; /* Remove any margin to ensure it touches the edges */
+    padding: 20px 0; /* Add some vertical padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Ensure h1 in welcome-background has no top margin */
+.welcome-background h1 {
+    margin-top: 0;
+}
+
+.announce {
+    font-family: 'Andale Mono', monospace;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white !important;
+    padding-top: 90px;
+}
+
+.announce2 {
+    font-family: 'Lexend', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white !important;
+    padding-bottom: 125px;
+}
+
+.quote {
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white !important;
+}
+
+.author {
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white !important;
+}
+
+.mission {
+    background-color: #CCFFE5; /* Background color */
+    width: 100%; /* Make sure it spans the full width of the parent container */
+    margin: 0; /* Remove any margin to ensure it touches the edges */
+    padding: 20px 0; /* Add some vertical padding */
+    box-sizing: border-box;
+    padding-bottom: 100px;
+}
+
+.mission1 {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottombar {
+    background-color: #009999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-weight: normal !important;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    font-size: 13px;
+    font-weight: normal !important;
+}
+
+.right {
+    display: flex;
+    gap: 10px;
+    background: none;
+}
+
+.copyright, .myname {
+    margin: 0;
+    color: white;
+}
+
+.linkhov {
+    transition: 0.3s;
+}
+
+.linkhov:hover {
+    transform: scale(1.5);
+}
+
+.githov {
+    transition: 0.3s;
+}
+
+.githov:hover {
+    transform: scale(1.3);
+}
+
+
+
+
+.right img {
+    width: 70px;
+    height: auto;
+}
+
+
+
+.paragraph {
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: normal !important;
+    transition: 0.15s;
+}
+
+.paragraph:hover {
+    transform: scale(1.025);
+    font-weight: bold !important;
+}
+
+.med {
+    align-items: center;
+    text-align: center;
+    
+}
+
+.medic {
+    background-color: #CCFFE5;
+    align-items: center;
+    text-align: center;
+}
+
+
+
